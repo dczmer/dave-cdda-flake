@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "cdda-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1704645294,
+        "narHash": "sha256-5YUcbiv0VSzlnrhhF8plpg5udZmfJ6Myhb2nragKEbw=",
+        "owner": "CleverRaven",
+        "repo": "Cataclysm-DDA",
+        "rev": "89fba42ed14f44708b4544e400e680296c0c0027",
+        "type": "github"
+      },
+      "original": {
+        "owner": "CleverRaven",
+        "repo": "Cataclysm-DDA",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1704649097,
+        "narHash": "sha256-IztnKH+5QHigL6Otdhcv6r66Aylc6tEMm1tJjByc3fM=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "aa629d9877cdeac2638223c8e75936657a590647",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "cdda-src": "cdda-src",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
