@@ -27,17 +27,6 @@
 # Then I can update everything at once with `git flake update` and I can
 # roll-back by restoring the lockfile from git history.
 #
-#
-# TODO:
-#
-# - [ ] install mods; nixpkg uses a symlinkJoin(?) looks like another deriv.
-#       that copies the mod files into one path, then merges with the install
-#       package?
-#       i think i can do this with flake files, like my nvim plugins.
-#     - [ ] undeadpeople tileset
-#     - [ ] cdda-soundpacks
-#     - [ ] mindovermatter
-#
 {
   description = "CDDA Experimental flake";
   inputs = {
@@ -48,14 +37,55 @@
       url = "github:CleverRaven/Cataclysm-DDA";
       flake = false;
     };
+    UnDeadPeople-src = {
+      url = "github:Theawesomeboophis/UnDeadPeopleTileSet";
+      flake = false;
+    };
+    CDDA-Soundpacks-src = {
+      url = "github:Fris0uman/CDDA-Soundpacks";
+      flake = false;
+    };
   };
-  outputs = inputs @ { self, nixpkgs, cdda-src }:
+  outputs = inputs @ {
+    self,
+    nixpkgs,
+    cdda-src,
+    UnDeadPeople-src,
+    CDDA-Soundpacks-src
+  }:
   let
-    cataclysm-dda-git = import ./packages/cataclysm-dda-git.nix {
+    cataclysm-unwrapped = import ./packages/cataclysm-dda-git.nix {
       inherit pkgs cdda-src;
+    };
+    UnDeadPeopleTileSet = import ./packages/mods/UnDeadPeopleTileSet.nix {
+      inherit pkgs UnDeadPeople-src;
+    };
+    CDDA-Soundpacks = import ./packages/mods/CDDA-Soundpacks.nix {
+      inherit pkgs CDDA-Soundpacks-src;
+    };
+    # symlinkJoin the paths for the mods with the cdda install path.
+    # this lets them all be cached individually and overlay at run-time.
+    # TODO: extract this symlinkJoin bit to another package (cdda-wrapped).
+    cataclysm-dda-git = pkgs.symlinkJoin {
+      name = "cataclysm-dda-git-with-mods";
+      paths = [
+        cataclysm-unwrapped
+        UnDeadPeopleTileSet
+        CDDA-Soundpacks
+      ];
+      # makeWrapper provides `wrapProgram`
+      nativeBuildInputs = with pkgs; [
+        makeWrapper
+      ];
+      # wrap the program and add `--datadir` to pickup our joined mods path
+      postBuild = ''
+        wrapProgram $out/bin/cataclysm-tiles \
+            --add-flags "--datadir $out/share/cataclysm-dda/"
+      '';
     };
     flakeOverlay = prev: final: {
       cataclysm-dda-git = cataclysm-dda-git;
+      cdda-mods.UnDeadPeopleTileSet = UnDeadPeopleTileSet;
     };
     pkgs = import nixpkgs {
       system = "x86_64-linux";

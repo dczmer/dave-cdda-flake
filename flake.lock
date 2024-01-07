@@ -1,5 +1,37 @@
 {
   "nodes": {
+    "CDDA-Soundpacks-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1703190165,
+        "narHash": "sha256-9itC05U39PettehJTvYXWXm9kA+g3FnQgFOiLFmayMg=",
+        "owner": "Fris0uman",
+        "repo": "CDDA-Soundpacks",
+        "rev": "96141b9ce96a765216851c9707d16841f1ac6785",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Fris0uman",
+        "repo": "CDDA-Soundpacks",
+        "type": "github"
+      }
+    },
+    "UnDeadPeople-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1703867951,
+        "narHash": "sha256-+ac7Nii5jAFFdLGeaRPFO6BWZN2M4u2/KKzet6tY8+Q=",
+        "owner": "Theawesomeboophis",
+        "repo": "UnDeadPeopleTileSet",
+        "rev": "1a83c90e3f028dd0fd3d6e4b0c8556faabe1fb83",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Theawesomeboophis",
+        "repo": "UnDeadPeopleTileSet",
+        "type": "github"
+      }
+    },
     "cdda-src": {
       "flake": false,
       "locked": {
@@ -33,6 +65,8 @@
     },
     "root": {
       "inputs": {
+        "CDDA-Soundpacks-src": "CDDA-Soundpacks-src",
+        "UnDeadPeople-src": "UnDeadPeople-src",
         "cdda-src": "cdda-src",
         "nixpkgs": "nixpkgs"
       }
