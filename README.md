@@ -27,3 +27,8 @@ I also wanted it to be a flake, and have the versions of the source and any
 out-of-repo mods in the flake.lock file.
 Then I can update everything at once with `git flake update` and I can
 roll-back by restoring the lockfile from git history.
+
+
+# TODO
+
+- [ ] possible to link/merge some default config settings?

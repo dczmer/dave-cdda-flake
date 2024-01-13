@@ -56,7 +56,6 @@
     };
     flakeOverlay = prev: final: {
       cataclysm-dda-git = cataclysm-dda-git;
-      cdda-mods.UnDeadPeopleTileSet = UnDeadPeopleTileSet;
     };
     pkgs = import nixpkgs {
       system = "x86_64-linux";
