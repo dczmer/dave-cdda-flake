@@ -3,11 +3,11 @@
     "CDDA-Soundpacks-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1703190165,
-        "narHash": "sha256-9itC05U39PettehJTvYXWXm9kA+g3FnQgFOiLFmayMg=",
+        "lastModified": 1705937167,
+        "narHash": "sha256-rqQrUZJ1QXIGt0YFVwlpDQ/1zUMaik+y1tA8cDq1PTg=",
         "owner": "Fris0uman",
         "repo": "CDDA-Soundpacks",
-        "rev": "96141b9ce96a765216851c9707d16841f1ac6785",
+        "rev": "0f6477c91fbc70154ea491cf143005c7118c76bd",
         "type": "github"
       },
       "original": {
@@ -19,11 +19,11 @@
     "UnDeadPeople-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1703867951,
-        "narHash": "sha256-+ac7Nii5jAFFdLGeaRPFO6BWZN2M4u2/KKzet6tY8+Q=",
+        "lastModified": 1705778564,
+        "narHash": "sha256-DGI4HN9KycX5Xp383YNRcVlCo524PeDxezon7Ydoa28=",
         "owner": "Theawesomeboophis",
         "repo": "UnDeadPeopleTileSet",
-        "rev": "1a83c90e3f028dd0fd3d6e4b0c8556faabe1fb83",
+        "rev": "b7874e20bfc48acdf4f219d32076e7ea6942e04c",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "cdda-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1704645294,
-        "narHash": "sha256-5YUcbiv0VSzlnrhhF8plpg5udZmfJ6Myhb2nragKEbw=",
+        "lastModified": 1706220040,
+        "narHash": "sha256-aRBWvrNrEpAMYEYgf2dTpNpRtCuEbMmJOx3U09W3brw=",
         "owner": "CleverRaven",
         "repo": "Cataclysm-DDA",
-        "rev": "89fba42ed14f44708b4544e400e680296c0c0027",
+        "rev": "36c0fde908bb2d80a1a6cce615d048a88018f11a",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1704649097,
-        "narHash": "sha256-IztnKH+5QHigL6Otdhcv6r66Aylc6tEMm1tJjByc3fM=",
+        "lastModified": 1706227075,
+        "narHash": "sha256-neFzVEm6LAjFTyfkhofibg0K0/R4djtjiWAzY9Wlnmw=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "aa629d9877cdeac2638223c8e75936657a590647",
+        "rev": "47ed86df2639a9942d6e0a8f786af0eb420cb2fe",
         "type": "github"
       },
       "original": {
