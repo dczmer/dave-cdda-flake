@@ -35,11 +35,11 @@
     "cdda-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1706220040,
-        "narHash": "sha256-aRBWvrNrEpAMYEYgf2dTpNpRtCuEbMmJOx3U09W3brw=",
+        "lastModified": 1706872736,
+        "narHash": "sha256-Vjh3vbLDHviW8due4RJ8wIC+1GIAmHgN8SwvkuKoMWs=",
         "owner": "CleverRaven",
         "repo": "Cataclysm-DDA",
-        "rev": "36c0fde908bb2d80a1a6cce615d048a88018f11a",
+        "rev": "03a693cd2672bd04563809b859483b8c5cd34027",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1706227075,
-        "narHash": "sha256-neFzVEm6LAjFTyfkhofibg0K0/R4djtjiWAzY9Wlnmw=",
+        "lastModified": 1706883477,
+        "narHash": "sha256-t8wqTJ5E77DexJIqM4MvpuaE7Ic8GvATTelpbF6tT78=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "47ed86df2639a9942d6e0a8f786af0eb420cb2fe",
+        "rev": "7367ffc89370d0f35e2a523c4eb7084c4479dfc9",
         "type": "github"
       },
       "original": {
