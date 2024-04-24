@@ -27,4 +27,5 @@ pkgs.stdenv.mkDerivation {
     SDL2_ttf
     freetype
   ];
+  enableParallelBuilding = true;
 }
