@@ -19,11 +19,11 @@
     "UnDeadPeople-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1719961891,
-        "narHash": "sha256-71lvYtuTRC/0D5Os3+QUzY9TWZvrbGJh2+3Ftyksj4Y=",
+        "lastModified": 1723827509,
+        "narHash": "sha256-DEFbJfkn/BAaJj9XLcXnXf9YFPqwe78UZi1954Umrag=",
         "owner": "Theawesomeboophis",
         "repo": "UnDeadPeopleTileSet",
-        "rev": "559c0c124afe73c5639c171acee77312f3d68d68",
+        "rev": "65a9f538897643c084c93133861eb13e26d47db8",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "cdda-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1723010145,
-        "narHash": "sha256-cMg1q2wIgfpBFnOmciHehlf7dGatqcucLHuqektTUVY=",
+        "lastModified": 1727809075,
+        "narHash": "sha256-LqOIIWsWwzjbJ759eQyVpSDHA7zwXmA0vEl6zDCOUFc=",
         "owner": "CleverRaven",
         "repo": "Cataclysm-DDA",
-        "rev": "293f801f03e68cacc5dd43da3d66f82c9903b43e",
+        "rev": "800b75638752ee7185085d9b94af6aece99fa9b5",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1723034720,
-        "narHash": "sha256-TnxclmWGBOf1vX7d07M5+DxKCzlIOK7AoqC1J1yBURA=",
+        "lastModified": 1727816238,
+        "narHash": "sha256-D3X/AZSrn7BvclK1eBC0QYGakuCjIg+h/q0mFz4CrVY=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "0cb563c5f4777ca80ceb78873999be8bfe9ae8b0",
+        "rev": "ec19e50baea6170285c0a8425068da0cb322174f",
         "type": "github"
       },
       "original": {
