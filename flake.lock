@@ -3,11 +3,11 @@
     "CDDA-Soundpacks-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1717955664,
-        "narHash": "sha256-wLSkljjwNxM8wOGvoh5mRxLPIIs5CtNQiFHi4TCFCus=",
+        "lastModified": 1730044367,
+        "narHash": "sha256-CWv2xD06+Z3uTwf4IcZSHLXP1Fm0ozvSRKih70VOcPw=",
         "owner": "Fris0uman",
         "repo": "CDDA-Soundpacks",
-        "rev": "73a730e0f05c73793eee8586a12ab1e590c325ff",
+        "rev": "252e566580dff3c8d37a67fd1bc887a8198f7915",
         "type": "github"
       },
       "original": {
@@ -35,11 +35,11 @@
     "cdda-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1727809075,
-        "narHash": "sha256-LqOIIWsWwzjbJ759eQyVpSDHA7zwXmA0vEl6zDCOUFc=",
+        "lastModified": 1730095751,
+        "narHash": "sha256-HN0gvItFxp5uYJhOKn3uv5om3Gi4zDsFCQdJFUtbe3k=",
         "owner": "CleverRaven",
         "repo": "Cataclysm-DDA",
-        "rev": "800b75638752ee7185085d9b94af6aece99fa9b5",
+        "rev": "ad8047dbb75bcafe063b2fd92f9565f5eeae8df6",
         "type": "github"
       },
       "original": {
@@ -50,11 +50,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1727816238,
-        "narHash": "sha256-D3X/AZSrn7BvclK1eBC0QYGakuCjIg+h/q0mFz4CrVY=",
+        "lastModified": 1730155734,
+        "narHash": "sha256-bzxn8TTWmpL9Q42bN5Lb53CnrnQk4sydsx3p2O4fR7c=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "ec19e50baea6170285c0a8425068da0cb322174f",
+        "rev": "bb50fc715d9c3e5b37da889722845087fcd9f251",
         "type": "github"
       },
       "original": {
